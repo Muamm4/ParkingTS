@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="#" />
+    <title>Estacionamento</title>
+  </head>
+  <body>
+    <input
+      type="text"
+      id="name"
+      placeholder="Digite o nome do veiculo: "
+      autocomplete="off"
+    />
+    <input
+      type="text"
+      id="placa"
+      placeholder="Digite a placa do veiculo: "
+      autocomplete="off"
+    />
+    <button id="cadastrar">Cadastrar</button>
+
+    <table class="carlist">
+      <thead>
+        <tr>
+          <th>Nome</th>
+          <th>Placa</th>
+          <th>Horario</th>
+          <th>Ação</th>
+        </tr>
+      </thead>
+      <tbody id="patio"></tbody>
+    </table>
+  </body>
+  <script type="text/javascript" src="./script.js"></script>
+</html>
